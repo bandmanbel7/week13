@@ -59,7 +59,7 @@ public class PetStoreController {
 		return petStoreService.saveCustomer(petStoreId, petStoreCustomer);
 	}
 	
-	@GetMapping()
+	@GetMapping("/pet_store")
 	public List<PetStoreData> retrieveAllPetStores() {
 		log.info("Retrieve all pet stores.");
 		return petStoreService.retrieveAllPetStores();
