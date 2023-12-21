@@ -48,6 +48,7 @@ public class PetStoreData {
 	
 	@Data
 	@NoArgsConstructor
+	public
 	static class PetStoreEmployee {
 		private Long employeeId;
 		private String employeeFirstName;
@@ -65,7 +66,8 @@ public class PetStoreData {
 	}
 		
 		@Data
-		@NoArgsConstructor 
+		@NoArgsConstructor
+		public 
 		static class PetStoreCustomer {
 			private Long customerId;
 			private String customerFirstName;
